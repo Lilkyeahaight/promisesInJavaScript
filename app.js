@@ -1,8 +1,8 @@
 const {checkInventory, processPayment, shipOrder} = require('./library.js');
 
 const order = {
-  items: [['sunglasses', 6], ['bags', 2]],
-  giftcardBalance: 79.82
+  items: [['sunglasses', 6], ['bags', 2],['pants',3]],
+  giftcardBalance: 149.82
 };
 
 checkInventory(order)
